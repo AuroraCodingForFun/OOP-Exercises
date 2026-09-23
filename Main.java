@@ -1,6 +1,7 @@
 public class Main
 {
     int x = 4;
+    int y= 67;
 
     public static void main (String [] args)
     {
