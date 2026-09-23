@@ -7,6 +7,7 @@ public class Main
     {
         Main myObj= new Main();
         Main myObj2= new Main();
+        myObj2.x = 3;
         System.out.println(myObj.x);
         System.out.print(myObj2.x);
     }
