@@ -22,4 +22,6 @@ public class Pokèmon
         System.out.println(this.nome+ " Attacca "+ p2.nome);
         return damage;
     }
+    Move cut= new Move();
+
 }
