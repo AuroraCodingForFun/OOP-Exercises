@@ -6,14 +6,10 @@ public class Main
 
     public static void main (String [] args)
     {
-        Pokèmon Pikachu= new Pokèmon("Pikachu", 100, 10, 10);
-        Main myObj2= new Main();
-        myObj2.x = 3;
-        myObj2.y= 67;
-        myObj2.name= "Freddy";
-        System.out.println(Pikachu.nome);
-        System.out.print(Pikachu.atk);
-        System.out.println("PS:"+Pikachu.ps);
+        Pokèmon Pikachu= new Pokèmon("Pikachu", 100, 100, 10);
+        Pokèmon Charizard= new Pokèmon("Charizard", 100, 50, 20);
+        Pikachu.attack(Charizard);
+        System.out.println("Cps"+Charizard.ps);
     }
 }
 
