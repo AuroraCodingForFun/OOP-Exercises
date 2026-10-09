@@ -12,4 +12,12 @@ public class Canzone {
         this.titolo=titolo;
         this.durata=durata;
     }
+    public int getDurata()
+    {
+        return this.durata;
+    }
+    public String getTitolo()
+    {
+        return this.titolo;
+    }
 }
