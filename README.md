@@ -18,4 +18,9 @@
   Carrello: espone solo totale() (somma di prezzo × quantità) e numeroArticoli() (somma delle quantità).
   </h6>
 
+- 🔲 Rettangolo
+  <h6>
+  Rettangolo: Base, Altezza, Area e Perimetro
+  </h6>
+
 <h6 align="center"> ❤️ </h6>
