@@ -20,15 +20,8 @@ public class Playlist {
         }
         return count;
     }
-    public int durataMedia()
+    public double durataMedia()
     {
-        int count=0;
-        int num=0;
-        for(Canzone i:canzoni)
-        {
-            count+=i.getDurata();
-            ++num;
-        }
-        return count/num;
+        return (double) durataTotale() / canzoni.size();
     }
 }
