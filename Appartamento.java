@@ -35,7 +35,7 @@ public class Appartamento {
     
     public double volumeTotale()
     {
-        int tot=0;
+        double tot=0;
         for(Stanza s:stanze)
         {
             tot+=s.getVolume();
