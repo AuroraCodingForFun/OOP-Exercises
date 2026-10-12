@@ -14,11 +14,11 @@ public class Libro {
         this.prezzo=prezzo;
     }
 
-    public int getPagine()
+    int getPagine()
     {
         return this.pagine;
     }
-    public double getPrezzo()
+    double getPrezzo()
     {
         return this.prezzo;
     }
