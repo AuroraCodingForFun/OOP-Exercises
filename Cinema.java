@@ -9,7 +9,7 @@ public class Cinema {
     private List<Film> films;
     public Cinema(List<Film> films)
     {
-        this.films=films;
+        this.films=new ArrayList<>();
     }
     public double incassoPotenziale()
     {
