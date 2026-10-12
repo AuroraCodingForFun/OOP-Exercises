@@ -13,4 +13,13 @@ public class Libro {
         this.pagine=pagine;
         this.prezzo=prezzo;
     }
+
+    public int getPagine()
+    {
+        return this.pagine;
+    }
+    public double getPrezzo()
+    {
+        return this.prezzo;
+    }
 }
