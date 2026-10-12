@@ -13,5 +13,23 @@ public class Scaffale {
         this.libri=new ArrayList<>(libri);
     }
 
-    
+    public int pagineTotali()
+    {
+        int tot=0;
+        for(Libro l:libri)
+        {
+            tot+=l.getPagine();
+        }
+        return tot;
+    }
+
+    public double prezzoTotale()
+    {
+        double tot=0;
+        for(Libro l:libri)
+        {
+            tot+=l.getPrezzo();
+        }
+        return tot;
+    }   
 }
