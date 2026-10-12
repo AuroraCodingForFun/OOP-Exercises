@@ -15,6 +15,12 @@ public class Appartamento {
     public Appartamento(List<Stanza> stanze, int valore)
     {
         this.stanze= new ArrayList<>(stanze);
+        this.valore=valore;
+    }
+    
+    public int getValore()
+    {
+        return this.valore;
     }
 
 }

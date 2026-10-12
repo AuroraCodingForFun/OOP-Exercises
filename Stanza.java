@@ -16,12 +16,12 @@ public class Stanza {
         this.larghezza=larghezza;
         this.altezza=altezza;
     }
-    public double superficie()
+    public double getSuperficie()
     {
         return this.lunghezza*this.larghezza;
     }
-    public double volume()
+    public double getVolume()
     {
-        return this.superficie()*this.altezza;
+        return this.getSuperficie()*this.altezza;
     }
 }
