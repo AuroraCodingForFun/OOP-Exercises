@@ -7,9 +7,9 @@ Appartamento: collezione di stanze e un valore, dati nel costruttore. Oltre al v
 espone solo superficieTotale() e volumeTotale().
 */
 public class Stanza {
-    double lunghezza;
-    double larghezza;
-    double altezza;
+    private double lunghezza;
+    private double larghezza;
+    private double altezza;
     public Stanza(double lunghezza, double larghezza, double altezza)
     {
         this.lunghezza=lunghezza;
