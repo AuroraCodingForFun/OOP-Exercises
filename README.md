@@ -3,13 +3,14 @@
 </h1>
 
 # Exercises to prepare myself to my OOP exam 👩🏻‍💻💡
+
 - Film e Cinema
     <h6>
     Film: durata in minuti e prezzo del biglietto.
     <br>
     Cinema: espone solo incassoPotenziale() (somma dei prezzi) e durataMassima().
     </h6>
-    
+
 - 💿🎧 Canzone + Playlist 
   <h6>
   Canzone: titolo e durata in secondi.
