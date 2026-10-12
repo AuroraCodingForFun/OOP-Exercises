@@ -11,4 +11,12 @@ public class Film {
         this.minuti=minuti;
         this.prezzo=prezzo;
     }
+    public int getMinuti()
+    {
+        return this.minuti;
+    }
+    public double getPrezzo()
+    {
+        return this.prezzo;
+    }
 }
