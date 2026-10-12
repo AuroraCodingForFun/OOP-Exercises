@@ -4,6 +4,15 @@
 
 # Exercises to prepare myself to my OOP exam 👩🏻‍💻💡
 
+<h4>Listed by least to first:</h4>
+
+- Stanza e Appartamento (versione completa dell’esame)
+    <h6>
+    Stanza: lunghezza e larghezza (lati della pianta) e altezza del soffitto, dati nel costruttore. Esternamente accessibili solo superficie() e volume().
+    <br>
+    Appartamento: collezione di stanze e un valore, dati nel costruttore. Oltre al valore, espone solo superficieTotale() e volumeTotale().
+    </h6>
+
 - Film e Cinema
     <h6>
     Film: durata in minuti e prezzo del biglietto.
