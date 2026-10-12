@@ -10,5 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Appartamento {
-    
+    private List<Stanza> stanze;
+    private int valore;
+    public Appartamento(List<Stanza> stanze, int valore)
+    {
+        this.stanze= new ArrayList<>(stanze);
+    }
+
 }
