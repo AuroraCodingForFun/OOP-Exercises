@@ -6,6 +6,15 @@
 
 <h4>Listed by least to first:</h4>
 
+- Libro, Scaffale, Libreria
+    <h6>
+    Libro: pagine e prezzo.
+    <br>
+    Scaffale: collezione di libri. Espone solo pagine() e prezzo() totali.
+    <br>
+    Libreria: collezione di scaffali e un nome. Espone il nome, pagineTotali() e prezzoTotale().
+    </h6>
+
 - Stanza e Appartamento (versione completa dell’esame)
     <h6>
     Stanza: lunghezza e larghezza (lati della pianta) e altezza del soffitto, dati nel costruttore. Esternamente accessibili solo superficie() e volume().
