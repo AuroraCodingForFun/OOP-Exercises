@@ -17,10 +17,30 @@ public class Appartamento {
         this.stanze= new ArrayList<>(stanze);
         this.valore=valore;
     }
-    
+
     public int getValore()
     {
         return this.valore;
+    }
+    
+    public double superficieTotale()
+    {
+        double tot=0;
+        for(Stanza s: stanze)
+        {
+            tot+=s.getSuperficie();
+        }
+        return tot;
+    }
+    
+    public double volumeTotale()
+    {
+        int tot=0;
+        for(Stanza s:stanze)
+        {
+            tot+=s.getVolume();
+        }
+        return tot;
     }
 
 }
