@@ -20,5 +20,10 @@ public class CentroCommerciale {
         this.nomeCentro=nomeCentro;
         this.negozi= new ArrayList<>(negozi);
     }
+    public double superficieTotale()
+    {
+        double tot=0;
+        
+    }
     
 }
