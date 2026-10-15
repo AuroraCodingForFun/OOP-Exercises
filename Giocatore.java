@@ -15,4 +15,16 @@ public class Giocatore {
         this.golSegnati=golSegnati;
         this.partiteGiocate=partiteGiocate;
     }
+    public String getNome()
+    {
+        return this.nome;
+    }
+    public int getGolSegnati()
+    {
+        return this.golSegnati;
+    }
+    public int getPartiteGiocate()
+    {
+        return this.partiteGiocate;
+    }
 }
