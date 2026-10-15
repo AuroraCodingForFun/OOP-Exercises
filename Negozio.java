@@ -17,4 +17,12 @@ public class Negozio {
         this.superficie=superficie;
         this.incasso=incasso;
     }
+    public double getSuperficie()
+    {
+        return this.superficie;
+    }
+    public double getIncasso()
+    {
+        return this.incasso;
+    }
 }
