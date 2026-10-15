@@ -23,7 +23,16 @@ public class CentroCommerciale {
     public double superficieTotale()
     {
         double tot=0;
-        
+        for(Negozio n: negozi)
+        {tot+=n.getSuperficie();}
+        return tot;
+    }
+    public double incassoTotale()
+    {
+        double tot=0;
+        for(Negozio n: negozi)
+        {tot+=n.getIncasso();}
+        return tot;
     }
     
 }
