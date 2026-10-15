@@ -6,6 +6,13 @@
 
 <h4>Listed by least to first:</h4>
 
+- Giocatore, Squadra
+  <h6>
+  Giocatore: gol segnati e partite giocate.
+  <br>
+  Squadra: nome e collezione di giocatori. Espone solo il nome, golTotali() e golPerPartita() (gol totali / partite totali, non la media delle medie).
+  </h6>
+
 - Libro, Scaffale, Libreria
     <h6>
     Libro: pagine e prezzo.
