@@ -31,6 +31,6 @@ public class Squadra {
     }
     public double golPerPartita()
     {
-        return golTotali()/partiteGiocateS;
+        return (double) golTotali()/partiteGiocateS;
     }
 }
