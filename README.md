@@ -16,7 +16,7 @@
   Da pensare: che cosa ritorna il metodo se il mercato è vuoto? Un centro con superficie 0 che cosa provoca nella media? Decidi e documenta nel Javadoc.
   </h6>
 
-<h2>Esercizi easy:</h2>
+<h2 style="background-color: green;">Esercizi easy:</h2>
 
 - Giocatore, Squadra
   <h6>
