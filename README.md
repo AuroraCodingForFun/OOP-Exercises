@@ -6,6 +6,10 @@
 
 <h4>Listed by least to first:</h4>
 
+- Ticket con id progressivo
+  <h6>
+  Ticket in cui ogni oggetto ha un id final progressivo (1, 2, 3...) assegnato nel costruttore tramite un campo static. Esponi solo getId() e un metodo static quantiCreati().
+  </h6>
 
 - Negozio, CentroCommerciale, MercatoCommerciale
   <h6>
