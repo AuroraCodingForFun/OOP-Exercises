@@ -12,31 +12,32 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CentroCommerciale {
-    private String nomeCentro;
-    private List<Negozio> negozi;
-    public CentroCommerciale(String nomeCentro, List<Negozio> negozi)
+import NegozioCentroMercatocommerciale.CentroCommerciale;
+
+public class MercatoCommerciale {
+    private List<CentroCommerciale> centri;
+    public MercatoCommerciale()
     {
-        this.nomeCentro=nomeCentro;
-        this.negozi= new ArrayList<>(negozi);
+        this.centri= new ArrayList<>();
     }
-    public String getNome()
+    public void aggiungiCentro( CentroCommerciale c)
     {
-        return this.nomeCentro;
+        centri.add(c);
     }
-    public double superficieTotale()
+    double incassoMedio()
     {
-        double tot=0;
-        for(Negozio n: negozi)
-        {tot+=n.getSuperficie();}
-        return tot;
+        int n=0;
+        double cash=0;
+        for( CentroCommerciale c: centri)
+        {
+            double sup=c.superficieTotale();
+            cash+=c.incassoTotale()/sup;
+            n++;
+        }
+        return cash/n;
     }
-    public double incassoTotale()
+    public double ritornoStimato( CentroCommerciale c)
     {
-        double tot=0;
-        for(Negozio n: negozi)
-        {tot+=n.getIncasso();}
-        return tot;
+        return c.superficieTotale()* this.incassoMedio();
     }
-    
 }

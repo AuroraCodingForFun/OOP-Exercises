@@ -1,3 +1,4 @@
+package EserciziEasy.GiocatoreSquadra;
 /*
 Giocatore, Squadra
   Giocatore: gol segnati e partite giocate.

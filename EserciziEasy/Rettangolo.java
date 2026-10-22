@@ -1,3 +1,4 @@
+package EserciziEasy;
 public class Rettangolo 
 {
     private final double base;

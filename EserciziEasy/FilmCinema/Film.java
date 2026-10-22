@@ -1,3 +1,4 @@
+package EserciziEasy.FilmCinema;
 /*
 Film e Cinema
     Film: durata in minuti e prezzo del biglietto.

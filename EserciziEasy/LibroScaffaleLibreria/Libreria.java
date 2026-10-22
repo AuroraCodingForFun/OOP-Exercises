@@ -1,3 +1,4 @@
+package EserciziEasy.LibroScaffaleLibreria;
 /*Libro, Scaffale, Libreria
 
 Libro: pagine e prezzo.

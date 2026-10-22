@@ -1,3 +1,4 @@
+package NegozioCentroMercatocommerciale;
 /*Negozio, CentroCommerciale, MercatoCommerciale
   Si implementi una classe Negozio che memorizza la superficie in metri quadri e l’incasso annuo in euro. 
   Si implementi poi una classe CentroCommerciale che contiene una collezione di negozi e un nome, 
@@ -12,30 +13,31 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class MercatoCommerciale {
-    private List<CentroCommerciale> centri;
-    public MercatoCommerciale()
+public class CentroCommerciale {
+    private String nomeCentro;
+    private List<Negozio> negozi;
+    public CentroCommerciale(String nomeCentro, List<Negozio> negozi)
     {
-        this.centri= new ArrayList<>();
+        this.nomeCentro=nomeCentro;
+        this.negozi= new ArrayList<>(negozi);
     }
-    public void aggiungiCentro( CentroCommerciale c)
+    public String getNome()
     {
-        centri.add(c);
+        return this.nomeCentro;
     }
-    double incassoMedio()
+    public double superficieTotale()
     {
-        int n=0;
-        double cash=0;
-        for( CentroCommerciale c: centri)
-        {
-            double sup=c.superficieTotale();
-            cash+=c.incassoTotale()/sup;
-            n++;
-        }
-        return cash/n;
+        double tot=0;
+        for(Negozio n: negozi)
+        {tot+=n.getSuperficie();}
+        return tot;
     }
-    public double ritornoStimato( CentroCommerciale c)
+    public double incassoTotale()
     {
-        return c.superficieTotale()* this.incassoMedio();
+        double tot=0;
+        for(Negozio n: negozi)
+        {tot+=n.getIncasso();}
+        return tot;
     }
+    
 }

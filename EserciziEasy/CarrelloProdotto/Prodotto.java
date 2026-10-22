@@ -1,3 +1,4 @@
+package EserciziEasy.CarrelloProdotto;
 /*Prodotto e Carrello
 
     Prodotto: prezzo e quantità.

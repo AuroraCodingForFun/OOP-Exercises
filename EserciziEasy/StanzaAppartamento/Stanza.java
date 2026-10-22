@@ -1,3 +1,4 @@
+package EserciziEasy.StanzaAppartamento;
 /*Stanza e Appartamento
 
 Stanza: lunghezza e larghezza (lati della pianta) e altezza del soffitto, dati nel costruttore.

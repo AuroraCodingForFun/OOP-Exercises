@@ -1,3 +1,4 @@
+package EserciziEasy.CanzonePlaylist;
 /*Canzone e Playlist
     Canzone: titolo e durata in secondi.
     Playlist: collezione di canzoni nel costruttore. Espone solo durataTotale() in secondi e durataMedia().

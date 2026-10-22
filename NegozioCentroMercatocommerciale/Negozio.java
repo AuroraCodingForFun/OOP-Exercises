@@ -1,3 +1,4 @@
+package NegozioCentroMercatocommerciale;
 /*Negozio, CentroCommerciale, MercatoCommerciale
   Si implementi una classe Negozio che memorizza la superficie in metri quadri e l’incasso annuo in euro. 
   Si implementi poi una classe CentroCommerciale che contiene una collezione di negozi e un nome, 
