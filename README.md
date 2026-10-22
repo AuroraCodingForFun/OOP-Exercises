@@ -6,6 +6,14 @@
 
 <h4>Listed by least to first:</h4>
 
+- ContoCorrente, Banca
+ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
+Banca — collezione di conti:
+apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
+saldoTotale();
+contoPiuRicco() — ritorna il conto col saldo maggiore;
+trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
+
 - Contatto, Rubrica
 
 Contatto — classe immutabile con nome e numero di telefono (String). Espone solo nome() e numero().
