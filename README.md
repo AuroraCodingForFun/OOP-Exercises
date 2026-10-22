@@ -6,11 +6,16 @@
 
 <h4>Listed by least to first:</h4>
 
+- Orario 
+<h6>
+  Scrivi Orario (ore, minuti) con tre costruttori: (ore, minuti), (ore) e (), che deleghino al primo con this(...). Gli oggetti sono immutabili: il metodo piuMinuti(int m) ritorna un nuovo Orario, gestendo il riporto delle ore (es. 10:50 + 20 → 11:10).
+  </h6>
+
 - Catalogo
   <h6>
   Scrivi una classe Catalogo con un campo static final List<String> NOMI inizializzato in un blocco static, e un costruttore che stampa "nuovo catalogo". In un main crei due cataloghi.
   </h6>
-  
+
 - Ticket con id progressivo
   <h6>
   Ticket in cui ogni oggetto ha un id final progressivo (1, 2, 3...) assegnato nel costruttore tramite un campo static. Esponi solo getId() e un metodo static quantiCreati().
