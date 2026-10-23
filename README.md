@@ -6,30 +6,45 @@
 
 <h4>Listed by least to first:</h4>
 
+- Vettore 
+<h6>
+Classe immutabile che rappresenta un vettore di double:
+
+costruttore che riceve un array (⚠️ copia difensiva: non conservare il riferimento ricevuto!);
+dimensione(), componente(int i);
+somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
+norma() — radice quadrata della somma dei quadrati delle componenti;
+toString() che stampa le componenti tra parentesi.
+</h6>
+
 - Evento, Biglietto
+<h6>
 Evento — nome, capienza e prezzo base:
 prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
 postiRimanenti();
 incassoTotale() — somma dei prezzi dei biglietti venduti.
 Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
+</h6>
 
 - ContoCorrente, Banca
+<h6>
 ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
 Banca — collezione di conti:
 apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
 saldoTotale();
 contoPiuRicco() — ritorna il conto col saldo maggiore;
 trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
+</h6>
 
 - Contatto, Rubrica
-
+<h6>
 Contatto — classe immutabile con nome e numero di telefono (String). Espone solo nome() e numero().
 Rubrica — collezione di contatti, con:
 aggiungi(Contatto c) — rifiuta (ritorna false) se il numero è già presente;
 rimuovi(String numero) — ritorna true se rimosso;
 cercaPerPrefisso(String prefisso) — ritorna una nuova Rubrica con i contatti il cui nome inizia col prefisso;
 numeroContatti().
-
+</h6>
 - Orario 
 <h6>
   Scrivi Orario (ore, minuti) con tre costruttori: (ore, minuti), (ore) e (), che deleghino al primo con this(...). Gli oggetti sono immutabili: il metodo piuMinuti(int m) ritorna un nuovo Orario, gestendo il riporto delle ore (es. 10:50 + 20 → 11:10).
