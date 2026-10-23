@@ -5,20 +5,54 @@ costruttore che riceve un array;
 dimensione(), componente(int i);
 somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
 norma() — radice quadrata della somma dei quadrati delle componenti;
-toString() che stampa le componenti tra parentesi.
  */
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Arrays;
 
 public class Vettor {
 
-    private ArrayList<Double> vett = new ArrayList<>();
+    private final double[] vett;
 
     public Vettor( double[] a)
     {
-        for( double i: a)
+        this.vett = Arrays.copyOf(a, a.length);
+    }
+    public int dimensione()
+    {
+        return vett.length;
+    }
+    public double componente(int i)
+    {
+        return vett[i];
+    }
+    public Vettor somma(Vettor altro)
+    {
+        if(altro.dimensione()!=this.dimensione())
+        {throw new IllegalArgumentException("Dimensioni diverse");}
+        double[] sum = new double[vett.length];
+        for(int i=0; i< vett.length; ++i)
         {
-            vett.add(i);
+            sum[i]= altro.componente(i)+vett[i];
         }
+        return new Vettor(sum);
+    }
+    public double prodottoScalare(Vettor altro)
+    {
+        if(altro.dimensione()!=this.dimensione())
+        {throw new IllegalArgumentException("Dimensioni diverse");}
+        double prod= 0;
+        for(int i=0; i< vett.length; ++i)
+        {prod+= vett[i]* altro.componente(i);}
+        return prod;
+    }
+    public double norma()
+    {
+        double sum=0;
+        for(double x: vett)
+        {
+            sum+=x*x;
+        }
+        return Math.sqrt(sum);
     }
 }
