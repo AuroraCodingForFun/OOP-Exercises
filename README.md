@@ -8,7 +8,6 @@
 
 - Evento, Biglietto
 Evento — nome, capienza e prezzo base:
-
 prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
 postiRimanenti();
 incassoTotale() — somma dei prezzi dei biglietti venduti.
