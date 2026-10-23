@@ -6,7 +6,7 @@
 
 <h4>Listed by least to first:</h4>
 
-<h2 style="background-color: #ffa666; color: #180a01">Esercizi medium:</h2>
+<h2 style="background-color: #f9ea7a">Esercizi medium:</h2>
 
 - Vettore 
 <h6>
