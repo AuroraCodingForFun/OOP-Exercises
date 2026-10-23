@@ -11,7 +11,7 @@
 - Vettore 
 <h6>
 Classe immutabile che rappresenta un vettore di double:
-costruttore che riceve un array (⚠️ copia difensiva: non conservare il riferimento ricevuto!);
+costruttore che riceve un array;
 dimensione(), componente(int i);
 somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
 norma() — radice quadrata della somma dei quadrati delle componenti;
