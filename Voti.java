@@ -4,7 +4,7 @@ import java.util.List;
 public class Voti {
     private final List<Integer> voti;
     public Voti(List<Integer> voti) 
-        { this.voti = voti; }
+        { this.voti = new ArrayList<>(voti); }
     public List<Integer> getVoti() 
         { return voti; }
     public double media() 

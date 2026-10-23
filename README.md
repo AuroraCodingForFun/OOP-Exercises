@@ -6,6 +6,14 @@
 
 <h4>Listed by least to first:</h4>
 
+- Evento, Biglietto
+Evento — nome, capienza e prezzo base:
+
+prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
+postiRimanenti();
+incassoTotale() — somma dei prezzi dei biglietti venduti.
+Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
+
 - ContoCorrente, Banca
 ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
 Banca — collezione di conti:
