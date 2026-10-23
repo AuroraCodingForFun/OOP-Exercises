@@ -6,6 +6,8 @@
 
 <h4>Listed by least to first:</h4>
 
+<h2 style="background-color: #ffa666;">Esercizi medium:</h2>
+
 - Vettore 
 <h6>
 Classe immutabile che rappresenta un vettore di double:
@@ -44,6 +46,7 @@ rimuovi(String numero) — ritorna true se rimosso;
 cercaPerPrefisso(String prefisso) — ritorna una nuova Rubrica con i contatti il cui nome inizia col prefisso;
 numeroContatti().
 </h6>
+
 - Orario 
 <h6>
   Scrivi Orario (ore, minuti) con tre costruttori: (ore, minuti), (ore) e (), che deleghino al primo con this(...). Gli oggetti sono immutabili: il metodo piuMinuti(int m) ritorna un nuovo Orario, gestendo il riporto delle ore (es. 10:50 + 20 → 11:10).
