@@ -47,4 +47,8 @@ public class Contocorrente {
     {
         return this.saldo;
     }
+    public String getIntestatario()
+    {
+        return this.intestatario;
+    }
 }
