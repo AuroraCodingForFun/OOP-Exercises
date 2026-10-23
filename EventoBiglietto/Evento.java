@@ -44,4 +44,8 @@ public class Evento {
         {tot+=b.getPrezzo();}
         return tot;
     }
+    public int capienza()
+    {
+        return this.capienza;
+    }
 }
