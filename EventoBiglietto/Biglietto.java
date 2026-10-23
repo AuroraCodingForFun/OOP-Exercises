@@ -25,4 +25,12 @@ public final class Biglietto {
     {
         return this.prezzo;
     }
+    public int getID()
+    {
+        return this.ID;
+    }
+    public String getNome()
+    {
+        return this.nome;
+    }
 }

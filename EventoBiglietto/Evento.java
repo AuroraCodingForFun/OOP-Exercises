@@ -17,6 +17,7 @@ public class Evento {
     private List<Biglietto> bigliettos;
     public Evento(String nome, int capienza, double prezzoBase)
     {
+        this.bigliettos= new ArrayList<>();
         this.nome=nome;
         this.capienza=capienza;
         this.prezzoBase=prezzoBase;
