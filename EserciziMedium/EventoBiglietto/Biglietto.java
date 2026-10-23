@@ -7,7 +7,7 @@ Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costr
 (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
 */
 
-package EventoBiglietto;
+package EserciziMedium.EventoBiglietto;
 
 public final class Biglietto {
     private static int id=1;

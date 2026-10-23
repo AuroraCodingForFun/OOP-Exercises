@@ -1,43 +1,29 @@
-package NegozioCentroMercatocommerciale;
+package EserciziMedium.NegozioCentroMercatocommerciale;
 /*Negozio, CentroCommerciale, MercatoCommerciale
   Si implementi una classe Negozio che memorizza la superficie in metri quadri e l’incasso annuo in euro. 
   Si implementi poi una classe CentroCommerciale che contiene una collezione di negozi e un nome, 
   inizializzati tramite costruttore. 
-  Oltre al nome, la classe deve esporre solo la superficie totale e l’incasso totale.
 
+  Oltre al nome, la classe deve esporre solo la superficie totale e l’incasso totale.
   Si implementi infine MercatoCommerciale, che contiene una collezione inizialmente vuota di centri commerciali. 
   Deve fornire un metodo per aggiungere un centro e un metodo che, dato un CentroCommerciale, ritorna l’incasso stimato. 
   L’incasso stimato si calcola moltiplicando la superficie del centro per l’incasso medio per metro quadro dei centri 
   del mercato (media dei rapporti incasso/superficie dei centri, non rapporto delle somme).
 */
-import java.util.ArrayList;
-import java.util.List;
-
-public class CentroCommerciale {
-    private String nomeCentro;
-    private List<Negozio> negozi;
-    public CentroCommerciale(String nomeCentro, List<Negozio> negozi)
+public class Negozio {
+    private double superficie;
+    private double incasso;
+    public Negozio(double superficie, double incasso)
     {
-        this.nomeCentro=nomeCentro;
-        this.negozi= new ArrayList<>(negozi);
+        this.superficie=superficie;
+        this.incasso=incasso;
     }
-    public String getNome()
+    public double getSuperficie()
     {
-        return this.nomeCentro;
+        return this.superficie;
     }
-    public double superficieTotale()
+    public double getIncasso()
     {
-        double tot=0;
-        for(Negozio n: negozi)
-        {tot+=n.getSuperficie();}
-        return tot;
+        return this.incasso;
     }
-    public double incassoTotale()
-    {
-        double tot=0;
-        for(Negozio n: negozi)
-        {tot+=n.getIncasso();}
-        return tot;
-    }
-    
 }

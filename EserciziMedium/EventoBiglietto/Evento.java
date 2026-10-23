@@ -6,7 +6,7 @@ incassoTotale() — somma dei prezzi dei biglietti venduti.
 Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static 
 (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
 */
-package EventoBiglietto;
+package EserciziMedium.EventoBiglietto;
 import java.util.ArrayList;
 import java.util.List;
 public class Evento {

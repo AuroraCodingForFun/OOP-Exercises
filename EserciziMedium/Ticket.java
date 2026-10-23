@@ -1,3 +1,4 @@
+package EserciziMedium;
 /*
 Ticket con id progressivo (facile)
 Scrivi Ticket in cui ogni oggetto ha un id final progressivo (1, 2, 3...) assegnato nel costruttore 

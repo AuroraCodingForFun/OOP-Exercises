@@ -1,3 +1,4 @@
+package EserciziMedium;
 /*
 Orario immutabile (medio)
 Scrivi Orario (ore, minuti) con tre costruttori: (ore, minuti), (ore) e (), che deleghino al primo con this(...). 

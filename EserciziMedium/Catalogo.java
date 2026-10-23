@@ -1,3 +1,4 @@
+package EserciziMedium;
 /* 
 Scrivi una classe Catalogo con un campo static final List<String> NOMI inizializzato in un blocco static, 
 e un costruttore che stampa "nuovo catalogo". In un main crei due cataloghi. 

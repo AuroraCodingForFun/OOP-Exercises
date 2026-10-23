@@ -2,7 +2,7 @@
 Contatto + Rubrica
 Contatto — classe immutabile con nome e numero di telefono (String). Espone solo nome() e numero().
 */
-package ContattoRubrica;
+package EserciziMedium.ContattoRubrica;
 
 public class Contatto {
     private final String nome;

@@ -7,7 +7,7 @@ contoPiuRicco() — ritorna il conto col saldo maggiore;
 trasferisci(ContoCorrente da, ContoCorrente a, double importo) 
 — ritorna true solo se il trasferimento è andato a buon fine. 
 */
-package ContocorrenteBanca;
+package EserciziMedium.ContocorrenteBanca;
 import java.util.ArrayList;
 import java.util.List;
 

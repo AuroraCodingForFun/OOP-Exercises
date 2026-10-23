@@ -5,7 +5,7 @@ rimuovi(String numero) — ritorna true se rimosso;
 cercaPerPrefisso(String prefisso) — ritorna una nuova Rubrica con i contatti il cui nome inizia col prefisso;
 numeroContatti().
  */
-package ContattoRubrica;
+package EserciziMedium.ContattoRubrica;
 
 import java.util.ArrayList;
 import java.util.List;
