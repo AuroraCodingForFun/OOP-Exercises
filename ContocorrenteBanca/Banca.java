@@ -20,6 +20,10 @@ public class Banca {
         conti= new ArrayList<>();
         this.nomeBanca=nomeBanca;
     }
+    public String getNomeBanca()
+    {
+        return this.nomeBanca;
+    }
     public void apriConto(String intestatario)
     {
         Contocorrente c= new Contocorrente(intestatario);
