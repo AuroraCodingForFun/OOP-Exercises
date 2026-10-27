@@ -8,6 +8,13 @@
 
 <h2 style="background-color: #f9ea7a">Esercizi medium:</h2>
 
+- Sistema di dispositivi
+  <h6>
+  Device (astratta): costruttore Device(String name, Room room), turnOn(), turnOff(), isOn(), getName(), getRoomName(), e un metodo astratto double getWatts().
+  Lamp extends Device: campo maxWatts; getWatts() ritorna maxWatts se accesa, altrimenti 0.
+  DimmableLamp extends Lamp: campo brightness (0–100); setBrightness(int) che aggiorna anche on (lampada spenta se brightness = 0); override di turnOn() che, se brightness era 0, la porta a 10 (come nelle slide).
+  </h6>
+
 - Vettore 
 <h6>
 Classe immutabile che rappresenta un vettore di double:
