@@ -7,4 +7,6 @@ public class Room {
     {
         this.roomName=nome;
     }
+    public String getRoomName()
+    {return this.roomName;}
 }

@@ -11,9 +11,38 @@ abstract class Device
 {
     private String name;
     private Room room;
+    private boolean state;
     public Device( String name, Room room)
     {
-        this.nome=name;
+        this.name=name;
         this.room=room;
+        this.state=false;
     }
+    public void turnOn()
+    {
+        if(this.state== false)
+        {this.state= true;}
+        else
+        {System.out.println("Already on");}
+    }
+    public void turnOff()
+    {
+        if(this.state==true)
+        {this.state=false;}
+        else
+        {System.out.println("Already off");}
+    }
+    public boolean isOn()
+    {
+        return this.state;
+    }
+    public String getName()
+    {
+        return this.name;
+    }
+    public String getRoomName()
+    {
+        return this.room.getRoomName();
+    }
+    abstract double getWatts();
 }
