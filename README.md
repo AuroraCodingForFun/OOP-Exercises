@@ -39,12 +39,7 @@ costruttore che riceve un array;
 dimensione(), componente(int i);
 somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
 norma() — radice quadrata della somma dei quadrati delle componenti;
-<<<<<<< HEAD
 </h6>
-=======
-toString() che stampa le componenti tra parentesi.
-</h5>
->>>>>>> 4beeb12154d38c9db6072439e36d84ee38b03ebd
 
 - Evento, Biglietto
 <h5>
