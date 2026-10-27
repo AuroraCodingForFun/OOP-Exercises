@@ -13,6 +13,13 @@ abstract class Animal
     protected int energy;
     abstract String sound();
 
+    public Animal( String name, int energy)
+    {
+      this.name=name;
+      if(energy<=100)
+      {this.energy=energy;}
+    }
+
     public void eat(int amount)
     {
       if(this.energy+amount> 100)
