@@ -18,6 +18,8 @@ abstract class Device
         this.room=room;
         this.state=false;
     }
+    public  Device()
+    {}
     public void turnOn()
     {
         if(this.state== false)
