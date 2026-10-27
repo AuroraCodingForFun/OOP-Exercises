@@ -14,6 +14,8 @@ public abstract class Mammal extends Animal{
         super(name,energy);
         this.bodyTemperature= bodyTemperature;
     }
+    public double getTemperature()
+    {return this.bodyTemperature;}
 
     @Override 
     public void eat(int amount)
