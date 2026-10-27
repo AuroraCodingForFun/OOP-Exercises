@@ -13,9 +13,15 @@ public class DimmableLamp extends Lamp
 {
     private int brightness;
 
+    public DimmableLamp( String nome, Room stanza, int watts, int brightness)
+    {
+        super(nome, stanza, watts);
+        this.brightness=brightness;
+    }
+
     public void setBrightness(int num)
     {
-        if(num>0&&num<100)
+        if(num>=0&&num<=100)
         {
             if(!isOn())
             {
@@ -28,5 +34,12 @@ public class DimmableLamp extends Lamp
             this.brightness=num;
         }
         
+    }
+    @Override 
+    public void turnOn()
+    {
+        if(this.brightness==0)
+        {this.brightness=10;}
+        super.turnOn();
     }
 }

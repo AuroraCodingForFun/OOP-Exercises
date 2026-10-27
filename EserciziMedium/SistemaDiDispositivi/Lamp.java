@@ -9,15 +9,19 @@ package EserciziMedium.SistemaDiDispositivi;
 
 public class Lamp extends Device{
 
-    private String name;
-    private Room room;
-    private boolean state;
-    private double watt;
-    
+    private double maxWatts;
+
+    public Lamp(String nome, Room room, int watts)
+    {
+        super(nome,room);
+        this.maxWatts=watts;
+    }
+
+    @Override 
     public double getWatts()
     {
         if(isOn())
-        {return this.watt;}
+        {return this.maxWatts;}
         else
         {return 0;}
     }
