@@ -6,7 +6,7 @@
 
 <h4>Listed by least to first:</h4>
 
-<h2 style="color: #030303 ;background-color: #f97a7a">Esercizi Hard:</h2>
+<h2 style="background-color: #070707">Esercizi Hard:</h2>
 
 - Shape → Polygon → Triangle / Quadrilateral (abstract + final + Liskov)
   <h6>
