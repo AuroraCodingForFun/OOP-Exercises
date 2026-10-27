@@ -10,7 +10,7 @@ package EserciziMedium.AnimalMammalDog;
 abstract class Animal
 {
     private String name;
-    protected int energy;
+    protected int energy=100;
     abstract String sound();
 
     public Animal( String name, int energy)

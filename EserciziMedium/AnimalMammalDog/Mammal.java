@@ -6,7 +6,7 @@ concreto void eat(int amount) che aumenta energy, e void speak() che stampa name
 */
 package EserciziMedium.AnimalMammalDog;
 
-public class Mammal extends Animal{
+public abstract class Mammal extends Animal{
     
     private double bodyTemperature;
     public Mammal(String name, int energy, double bodyTemperature)
@@ -18,6 +18,6 @@ public class Mammal extends Animal{
     @Override 
     public void eat(int amount)
     {
-        super.eat(amount+ amount*10/100);
+        super.eat((int)(amount * 1.10));
     }
 }
