@@ -42,4 +42,19 @@ public class DimmableLamp extends Lamp
         {this.brightness=10;}
         super.turnOn();
     }
+
+    private int parse(String s)
+    {
+        String pulita= s.replace("%", "").trim();
+        int num= Integer.parseInt(pulita);
+        return num;
+    }
+    public void setBrightness(String percent)
+    {
+        setBrightness(parse(percent));
+    }
+    public void setBrightness(double num)
+    {
+        setBrightness((int)Math.round(num));
+    }
 }
