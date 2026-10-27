@@ -8,6 +8,12 @@
 
 <h2 style="background-color: #f9ea7a">Esercizi medium:</h2>
 
+- Animal, Mammal, Dog
+  <h6>
+  Animal (astratta): name, protected int energy = 100, astratto String sound(), concreto void eat(int amount) che aumenta energy, e void speak() che stampa name + ": " + sound().
+  Mammal extends Animal: campo bodyTemperature; override di eat che chiama super.eat(amount) ma con un bonus (es. +10%).
+  Dog extends Mammal: sound() ritorna "Woof"; override di speak() che stampa "🐕 " + super.speak().
+  </h6>
 - Sistema di dispositivi
   <h6>
   Device (astratta): costruttore Device(String name, Room room), turnOn(), turnOff(), isOn(), getName(), getRoomName(), e un metodo astratto double getWatts().
