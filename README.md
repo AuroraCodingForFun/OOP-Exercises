@@ -8,7 +8,7 @@
 
 <h2 style="background-color: #070707">Esercizi Hard:</h2>
 
-- Shape → Polygon → Triangle / Quadrilateral (abstract + final + Liskov)
+- Shape Polygon Triangle / Quadrilateral
   <h6>
   Shape (astratta): name; astratto double area(); astratto double perimeter().
   Polygon extends Shape: campo int sides; final int sides().
