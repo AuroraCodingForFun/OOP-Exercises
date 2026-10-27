@@ -16,116 +16,121 @@
   </h6>
 
 - Vettore 
-<h6>
+<h5>
 Classe immutabile che rappresenta un vettore di double:
 costruttore che riceve un array;
 dimensione(), componente(int i);
 somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
 norma() — radice quadrata della somma dei quadrati delle componenti;
+<<<<<<< HEAD
 </h6>
+=======
+toString() che stampa le componenti tra parentesi.
+</h5>
+>>>>>>> 4beeb12154d38c9db6072439e36d84ee38b03ebd
 
 - Evento, Biglietto
-<h6>
+<h5>
 Evento — nome, capienza e prezzo base:
 prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
 postiRimanenti();
 incassoTotale() — somma dei prezzi dei biglietti venduti.
 Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
-</h6>
+</h5>
 
 - ContoCorrente, Banca
-<h6>
+<h5>
 ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
 Banca — collezione di conti:
 apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
 saldoTotale();
 contoPiuRicco() — ritorna il conto col saldo maggiore;
 trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
-</h6>
+</h5>
 
 - Contatto, Rubrica
-<h6>
+<h5>
 Contatto — classe immutabile con nome e numero di telefono (String). Espone solo nome() e numero().
 Rubrica — collezione di contatti, con:
 aggiungi(Contatto c) — rifiuta (ritorna false) se il numero è già presente;
 rimuovi(String numero) — ritorna true se rimosso;
 cercaPerPrefisso(String prefisso) — ritorna una nuova Rubrica con i contatti il cui nome inizia col prefisso;
 numeroContatti().
-</h6>
+</h5>
 
 - Orario 
-<h6>
+<h5>
   Scrivi Orario (ore, minuti) con tre costruttori: (ore, minuti), (ore) e (), che deleghino al primo con this(...). Gli oggetti sono immutabili: il metodo piuMinuti(int m) ritorna un nuovo Orario, gestendo il riporto delle ore (es. 10:50 + 20 → 11:10).
-  </h6>
+  </h5>
 
 - Catalogo
-  <h6>
+  <h5>
   Scrivi una classe Catalogo con un campo static final List<String> NOMI inizializzato in un blocco static, e un costruttore che stampa "nuovo catalogo". In un main crei due cataloghi.
-  </h6>
+  </h5>
 
 - Ticket con id progressivo
-  <h6>
+  <h5>
   Ticket in cui ogni oggetto ha un id final progressivo (1, 2, 3...) assegnato nel costruttore tramite un campo static. Esponi solo getId() e un metodo static quantiCreati().
-  </h6>
+  </h5>
 
 - Negozio, CentroCommerciale, MercatoCommerciale
-  <h6>
+  <h5>
   Si implementi una classe Negozio che memorizza la superficie in metri quadri e l’incasso annuo in euro. Si implementi poi una classe CentroCommerciale che contiene una collezione di negozi e un nome, inizializzati tramite costruttore. Oltre al nome, la classe deve esporre solo la superficie totale e l’incasso totale.
 
   Si implementi infine MercatoCommerciale, che contiene una collezione inizialmente vuota di centri commerciali. Deve fornire un metodo per aggiungere un centro e un metodo che, dato un CentroCommerciale, ritorna l’incasso stimato. L’incasso stimato si calcola moltiplicando la superficie del centro per l’incasso medio per metro quadro dei centri del mercato (media dei rapporti incasso/superficie dei centri, non rapporto delle somme).
 
   Da pensare: che cosa ritorna il metodo se il mercato è vuoto? Un centro con superficie 0 che cosa provoca nella media? Decidi e documenta nel Javadoc.
-  </h6>
+  </h5>
 
 <h2 style="background-color: #99ff66;">Esercizi easy:</h2>
 
 - Giocatore, Squadra
-  <h6>
+  <h5>
   Giocatore: gol segnati e partite giocate.
   <br>
   Squadra: nome e collezione di giocatori. Espone solo il nome, golTotali() e golPerPartita() (gol totali / partite totali, non la media delle medie).
-  </h6>
+  </h5>
 
 - Libro, Scaffale, Libreria
-    <h6>
+    <h5>
     Libro: pagine e prezzo.
     <br>
     Scaffale: collezione di libri. Espone solo pagine() e prezzo() totali.
     <br>
     Libreria: collezione di scaffali e un nome. Espone il nome, pagineTotali() e prezzoTotale().
-    </h6>
+    </h5>
 
 - Stanza e Appartamento (versione completa dell’esame)
-    <h6>
+    <h5>
     Stanza: lunghezza e larghezza (lati della pianta) e altezza del soffitto, dati nel costruttore. Esternamente accessibili solo superficie() e volume().
     <br>
     Appartamento: collezione di stanze e un valore, dati nel costruttore. Oltre al valore, espone solo superficieTotale() e volumeTotale().
-    </h6>
+    </h5>
 
 - Film e Cinema
-    <h6>
+    <h5>
     Film: durata in minuti e prezzo del biglietto.
     <br>
     Cinema: espone solo incassoPotenziale() (somma dei prezzi) e durataMassima().
-    </h6>
+    </h5>
 
 - 💿🎧 Canzone + Playlist 
-  <h6>
+  <h5>
   Canzone: titolo e durata in secondi.
   <br>
     Playlist: collezione di canzoni nel costruttore. Espone solo durataTotale() in secondi e durataMedia().
-  </h6>
+  </h5>
 
 - 🛒🛍️Prodotto e Carrello
-  <h6>
+  <h5>
   Prodotto: prezzo e quantità.
   <br>
   Carrello: espone solo totale() (somma di prezzo × quantità) e numeroArticoli() (somma delle quantità).
-  </h6>
+  </h5>
 
 - 🔲 Rettangolo
-  <h6>
+  <h5>
   Rettangolo: Base, Altezza, Area e Perimetro
-  </h6>
+  </h5>
 
-<h6 align="center"> ❤️ </h6>
+<h5 align="center"> ❤️ </h5>
