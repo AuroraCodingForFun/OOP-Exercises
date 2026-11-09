@@ -6,6 +6,19 @@
 
 <h4>Listed by least to first:</h4>
 
+- Stanza & Appartamento
+
+<h6>
+Si implementi una classe Stanza che rappresenta una stanza rettangolare di un
+appartamento, e che memorizza la lunghezza in metri dei due lati della pianta della stanza
+rettangolare, e l’altezza del soffitto. Esternamente devono essere accessibili solo la superficie
+della stanza in metri quadri, e il suo volume in metri cubi. Tutti i dati devono essere
+inizializzabili tramite costruttore.
+Si implementi poi una classe Appartamento che contiene una collezione di appartamenti
+inizializzati tramite costruttore, e il valore di tale appartamento. Oltra al valore, questa classe
+deve esporre esternamente solo la superficie e il volume totali dell’appartamento.
+</h6>
+
 <h2 style="background-color: #070707">Esercizi Hard:</h2>
 
 - Shape Polygon Triangle / Quadrilateral
