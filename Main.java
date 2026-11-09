@@ -6,10 +6,7 @@ public class Main
 
     public static void main (String [] args)
     {
-        // main
-            A a = new A(3);
-            a.stampa();
-            
+        System.out.println("Hi");  
     }
 }
 
