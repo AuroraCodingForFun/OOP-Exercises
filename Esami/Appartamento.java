@@ -37,4 +37,6 @@ public class Appartamento {
         {volume+=s.volume();}
         return volume;
     }
+    public double getval()
+    {return this.valore;}
 }
