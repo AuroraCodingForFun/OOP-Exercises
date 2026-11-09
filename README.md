@@ -10,7 +10,7 @@
 
 - Stanza & Appartamento
 
-<h6>
+<h5>
 Si implementi una classe Stanza che rappresenta una stanza rettangolare di un
 appartamento, e che memorizza la lunghezza in metri dei due lati della pianta della stanza
 rettangolare, e l’altezza del soffitto. Esternamente devono essere accessibili solo la superficie
@@ -19,58 +19,58 @@ inizializzabili tramite costruttore.
 Si implementi poi una classe Appartamento che contiene una collezione di appartamenti
 inizializzati tramite costruttore, e il valore di tale appartamento. Oltra al valore, questa classe
 deve esporre esternamente solo la superficie e il volume totali dell’appartamento.
-</h6>
+</h5>
 
 <h2 style="background-color: #070707">Esercizi Hard:</h2>
 
 - Shape Polygon Triangle / Quadrilateral
-  <h6>
+  <h5>
   Shape (astratta): name; astratto double area(); astratto double perimeter().
   Polygon extends Shape: campo int sides; final int sides().
   Triangle extends Polygon: lati a, b, c; area() con Erone; perimeter().
   Quadrilateral extends Polygon: lati a, b, c, d; perimeter(); area() astratto (non tutti i quadrilateri hanno formula unica).
   Rectangle extends Quadrilateral: width, height; area().
-  </h6>
+  </h5>
 
 <h2 style="background-color: #f9ea7a">Esercizi medium:</h2>
 
 - Animal, Mammal, Dog
-  <h6>
+  <h5>
   Animal (astratta): name, protected int energy = 100, astratto String sound(), concreto void eat(int amount) che aumenta energy, e void speak() che stampa name + ": " + sound().
   Mammal extends Animal: campo bodyTemperature; override di eat che chiama super.eat(amount) ma con un bonus (es. +10%).
   Dog extends Mammal: sound() ritorna "Woof"; override di speak() che stampa "🐕 " + super.speak().
-  </h6>
+  </h5>
 - Sistema di dispositivi
-  <h6>
+  <h5>
   Device (astratta): costruttore Device(String name, Room room), turnOn(), turnOff(), isOn(), getName(), getRoomName(), e un metodo astratto double getWatts().
   Lamp extends Device: campo maxWatts; getWatts() ritorna maxWatts se accesa, altrimenti 0.
   DimmableLamp extends Lamp: campo brightness (0–100); setBrightness(int) che aggiorna anche on (lampada spenta se brightness = 0); override di turnOn() che, se brightness era 0, la porta a 10 (come nelle slide).
-  </h6>
+  </h5>
 - Vettore 
-  <h6>
+  <h5>
   Classe immutabile che rappresenta un vettore di double:
   costruttore che riceve un array;
   dimensione(), componente(int i);
   somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
   norma() — radice quadrata della somma dei quadrati delle componenti;
-  </h6>
+  </h5>
 - Evento, Biglietto
-  <h6>
+  <h5>
   Evento — nome, capienza e prezzo base:
   prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
   postiRimanenti();
   incassoTotale() — somma dei prezzi dei biglietti venduti.
   Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
-  </h6>
+  </h5>
 - ContoCorrente, Banca
-<h6>
+<h5>
 ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
 Banca — collezione di conti:
 apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
 saldoTotale();
 contoPiuRicco() — ritorna il conto col saldo maggiore;
 trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
-</h6>
+</h5>
 
 - Contatto, Rubrica
 <h5>
