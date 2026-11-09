@@ -15,7 +15,7 @@
   rettangolare, e l’altezza del soffitto. Esternamente devono essere accessibili solo la superficie
   della stanza in metri quadri, e il suo volume in metri cubi. Tutti i dati devono essere
   inizializzabili tramite costruttore.
-  Si implementi poi una classe Appartamento che contiene una collezione di appartamenti
+  Si implementi poi una classe Appartamento che contiene una collezione di stanze
   inizializzati tramite costruttore, e il valore di tale appartamento. Oltra al valore, questa classe
   deve esporre esternamente solo la superficie e il volume totali dell’appartamento.
   </h5>
