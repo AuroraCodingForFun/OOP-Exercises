@@ -4,6 +4,11 @@
 
 # Exercises to prepare myself to my OOP exam 👩🏻‍💻💡
 
+---
+Esame di Programmazione ad Oggetti 2026/2027: UNIVE
+---
+
+
 <h4 align="center">Listed by least to first:</h4>
 
 <h2 style="background-color: #070707">Esercizi Hard da Esame:</h2>
@@ -147,5 +152,7 @@
   <h5>
   Rettangolo: Base, Altezza, Area e Perimetro
   </h5>
+
+Questa repository non è supportata dall' università di Venezia (UNIVE), tutti gli esercizi sono frutto di invenzione, o di imitazione di vecchie prove d'esame rese pubbliche.
 
 <h5 align="center"> ❤️ </h5>
