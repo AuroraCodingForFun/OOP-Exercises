@@ -4,11 +4,6 @@
 
 # Exercises to prepare myself to my OOP exam 👩🏻‍💻💡
 
----
-Esame di Programmazione ad Oggetti 2026/2027: UNIVE
----
-
-
 <h4 align="center">Listed by least to first:</h4>
 
 <h2 style="background-color: #070707">Esercizi Hard da Esame:</h2>
