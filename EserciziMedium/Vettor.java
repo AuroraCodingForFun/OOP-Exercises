@@ -1,3 +1,4 @@
+package EserciziMedium;
 /*
 Vettore 
 Classe immutabile che rappresenta un vettore di double:
@@ -6,8 +7,6 @@ dimensione(), componente(int i);
 somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
 norma() — radice quadrata della somma dei quadrati delle componenti;
  */
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Arrays;
 
 public class Vettor {
