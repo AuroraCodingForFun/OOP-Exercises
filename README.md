@@ -4,25 +4,21 @@
 
 # Exercises to prepare myself to my OOP exam 👩🏻‍💻💡
 
-<h4>Listed by least to first:</h4>
+<h4 align="center">Listed by least to first:</h4>
 
----
+<h2 style="background-color: #070707">Esercizi Hard da Esame:</h2>
 
 - Stanza & Appartamento
-
-<h5>
-Si implementi una classe Stanza che rappresenta una stanza rettangolare di un
-appartamento, e che memorizza la lunghezza in metri dei due lati della pianta della stanza
-rettangolare, e l’altezza del soffitto. Esternamente devono essere accessibili solo la superficie
-della stanza in metri quadri, e il suo volume in metri cubi. Tutti i dati devono essere
-inizializzabili tramite costruttore.
-Si implementi poi una classe Appartamento che contiene una collezione di appartamenti
-inizializzati tramite costruttore, e il valore di tale appartamento. Oltra al valore, questa classe
-deve esporre esternamente solo la superficie e il volume totali dell’appartamento.
-</h5>
-
-<h2 style="background-color: #070707">Esercizi Hard:</h2>
-
+  <h5>
+  Si implementi una classe Stanza che rappresenta una stanza rettangolare di un
+  appartamento, e che memorizza la lunghezza in metri dei due lati della pianta della stanza
+  rettangolare, e l’altezza del soffitto. Esternamente devono essere accessibili solo la superficie
+  della stanza in metri quadri, e il suo volume in metri cubi. Tutti i dati devono essere
+  inizializzabili tramite costruttore.
+  Si implementi poi una classe Appartamento che contiene una collezione di appartamenti
+  inizializzati tramite costruttore, e il valore di tale appartamento. Oltra al valore, questa classe
+  deve esporre esternamente solo la superficie e il volume totali dell’appartamento.
+  </h5>
 - Shape Polygon Triangle / Quadrilateral
   <h5>
   Shape (astratta): name; astratto double area(); astratto double perimeter().
@@ -100,7 +96,7 @@ deve esporre esternamente solo la superficie e il volume totali dell’appartame
 
   Da pensare: che cosa ritorna il metodo se il mercato è vuoto? Un centro con superficie 0 che cosa provoca nella media? Decidi e documenta nel Javadoc.
   </h5>
-  
+
 <h2 style="background-color: #99ff66;">Esercizi easy:</h2>
 
 - Giocatore, Squadra
