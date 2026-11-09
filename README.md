@@ -17,7 +17,7 @@
   Rectangle extends Quadrilateral: width, height; area().
   </h6>
 
-  <h2 style="background-color: #f9ea7a">Esercizi medium:</h2>
+<h2 style="background-color: #f9ea7a">Esercizi medium:</h2>
 
 - Animal, Mammal, Dog
   <h6>
