@@ -63,40 +63,35 @@ deve esporre esternamente solo la superficie e il volume totali dell’appartame
   Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
   </h5>
 - ContoCorrente, Banca
-<h5>
-ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
-Banca — collezione di conti:
-apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
-saldoTotale();
-contoPiuRicco() — ritorna il conto col saldo maggiore;
-trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
-</h5>
-
+  <h5>
+  ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
+  Banca — collezione di conti:
+  apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
+  saldoTotale();
+  contoPiuRicco() — ritorna il conto col saldo maggiore;
+  trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
+  </h5>
 - Contatto, Rubrica
-<h5>
-Contatto — classe immutabile con nome e numero di telefono (String). Espone solo nome() e numero().
-Rubrica — collezione di contatti, con:
-aggiungi(Contatto c) — rifiuta (ritorna false) se il numero è già presente;
-rimuovi(String numero) — ritorna true se rimosso;
-cercaPerPrefisso(String prefisso) — ritorna una nuova Rubrica con i contatti il cui nome inizia col prefisso;
-numeroContatti().
-</h5>
-
+  <h5>
+  Contatto — classe immutabile con nome e numero di telefono (String). Espone solo nome() e numero().
+  Rubrica — collezione di contatti, con:
+  aggiungi(Contatto c) — rifiuta (ritorna false) se il numero è già presente;
+  rimuovi(String numero) — ritorna true se rimosso;
+  cercaPerPrefisso(String prefisso) — ritorna una nuova Rubrica con i contatti il cui nome inizia col prefisso;
+  numeroContatti().
+  </h5>
 - Orario 
-<h5>
+  <h5>
   Scrivi Orario (ore, minuti) con tre costruttori: (ore, minuti), (ore) e (), che deleghino al primo con this(...). Gli oggetti sono immutabili: il metodo piuMinuti(int m) ritorna un nuovo Orario, gestendo il riporto delle ore (es. 10:50 + 20 → 11:10).
   </h5>
-
 - Catalogo
   <h5>
   Scrivi una classe Catalogo con un campo static final List<String> NOMI inizializzato in un blocco static, e un costruttore che stampa "nuovo catalogo". In un main crei due cataloghi.
   </h5>
-
 - Ticket con id progressivo
   <h5>
   Ticket in cui ogni oggetto ha un id final progressivo (1, 2, 3...) assegnato nel costruttore tramite un campo static. Esponi solo getId() e un metodo static quantiCreati().
   </h5>
-
 - Negozio, CentroCommerciale, MercatoCommerciale
   <h5>
   Si implementi una classe Negozio che memorizza la superficie in metri quadri e l’incasso annuo in euro. Si implementi poi una classe CentroCommerciale che contiene una collezione di negozi e un nome, inizializzati tramite costruttore. Oltre al nome, la classe deve esporre solo la superficie totale e l’incasso totale.
@@ -105,7 +100,7 @@ numeroContatti().
 
   Da pensare: che cosa ritorna il metodo se il mercato è vuoto? Un centro con superficie 0 che cosa provoca nella media? Decidi e documenta nel Javadoc.
   </h5>
-
+  
 <h2 style="background-color: #99ff66;">Esercizi easy:</h2>
 
 - Giocatore, Squadra
