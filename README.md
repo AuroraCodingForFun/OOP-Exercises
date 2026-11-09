@@ -7,7 +7,11 @@
 <h4>Listed by least to first:</h4>
 
 ---
-Stanza & Appartamento: Si implementi una classe Stanza che rappresenta una stanza rettangolare di un
+
+- Stanza & Appartamento
+
+<h6>
+Si implementi una classe Stanza che rappresenta una stanza rettangolare di un
 appartamento, e che memorizza la lunghezza in metri dei due lati della pianta della stanza
 rettangolare, e l’altezza del soffitto. Esternamente devono essere accessibili solo la superficie
 della stanza in metri quadri, e il suo volume in metri cubi. Tutti i dati devono essere
@@ -15,7 +19,7 @@ inizializzabili tramite costruttore.
 Si implementi poi una classe Appartamento che contiene una collezione di appartamenti
 inizializzati tramite costruttore, e il valore di tale appartamento. Oltra al valore, questa classe
 deve esporre esternamente solo la superficie e il volume totali dell’appartamento.
----
+</h6>
 
 <h2 style="background-color: #070707">Esercizi Hard:</h2>
 
@@ -42,34 +46,31 @@ deve esporre esternamente solo la superficie e il volume totali dell’appartame
   Lamp extends Device: campo maxWatts; getWatts() ritorna maxWatts se accesa, altrimenti 0.
   DimmableLamp extends Lamp: campo brightness (0–100); setBrightness(int) che aggiorna anche on (lampada spenta se brightness = 0); override di turnOn() che, se brightness era 0, la porta a 10 (come nelle slide).
   </h6>
-
 - Vettore 
-<h5>
-Classe immutabile che rappresenta un vettore di double:
-costruttore che riceve un array;
-dimensione(), componente(int i);
-somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
-norma() — radice quadrata della somma dei quadrati delle componenti;
-</h6>
-
+  <h6>
+  Classe immutabile che rappresenta un vettore di double:
+  costruttore che riceve un array;
+  dimensione(), componente(int i);
+  somma(Vettore altro) e prodottoScalare(Vettore altro) — ritornano nuovi oggetti;
+  norma() — radice quadrata della somma dei quadrati delle componenti;
+  </h6>
 - Evento, Biglietto
-<h5>
-Evento — nome, capienza e prezzo base:
-prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
-postiRimanenti();
-incassoTotale() — somma dei prezzi dei biglietti venduti.
-Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
-</h5>
-
+  <h6>
+  Evento — nome, capienza e prezzo base:
+  prenota() — ritorna un Biglietto se ci sono posti, altrimenti null;
+  postiRimanenti();
+  incassoTotale() — somma dei prezzi dei biglietti venduti.
+  Biglietto — immutabile, con un id progressivo (1, 2, 3…) assegnato nel costruttore tramite un campo static (ricicla l'idea dell'esercizio Ticket), più nome dell'evento e prezzo.
+  </h6>
 - ContoCorrente, Banca
-<h5>
+<h6>
 ContoCorrente — intestatario e saldo. Espone deposita(double importo), preleva(double importo) e saldo().
 Banca — collezione di conti:
 apriConto(String intestatario) — crea un conto con saldo 0 e lo aggiunge;
 saldoTotale();
 contoPiuRicco() — ritorna il conto col saldo maggiore;
 trasferisci(ContoCorrente da, ContoCorrente a, double importo) — ritorna true solo se il trasferimento è andato a buon fine.
-</h5>
+</h6>
 
 - Contatto, Rubrica
 <h5>
