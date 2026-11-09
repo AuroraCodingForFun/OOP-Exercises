@@ -16,4 +16,8 @@ public abstract class Shape {
     {
         this.nome=nome;
     }
+    public String getNome()
+    {
+        return this.nome;
+    }
 }
